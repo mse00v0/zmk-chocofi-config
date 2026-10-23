@@ -1,8 +1,8 @@
 ---
 include:
-  - board: nice_nano//zmk
-    shield: corne_left nice_view_adapter nice_view_gem
-  - board: nice_nano//zmk
-    shield: corne_right nice_view_adapter nice_epaper
-  - board: nice_nano//zmk
-    shield: settings_reset
+  - board: nice_nano_v2
+    shield: chocofi_left
+  - board: nice_nano_v2
+    shield: chocofi_right
+  - board: nice_nano_v2 # or your specific dongle target like nrf52840_mdk_usb_dongle
+    shield: chocofi_dongle # or standard central/dongle overlay
