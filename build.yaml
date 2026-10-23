@@ -2,7 +2,9 @@
 include:
   - board: nice_nano_v2
     shield: chocofi_left
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano_v2
     shield: chocofi_right
-  - board: nice_nano_v2 # or your specific dongle target like nrf52840_mdk_usb_dongle
-    shield: chocofi_dongle # or standard central/dongle overlay
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: nice_nano_v2
+    shield: chocofi_dongle
